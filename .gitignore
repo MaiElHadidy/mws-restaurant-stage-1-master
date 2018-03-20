@@ -2,3 +2,4 @@ CODEOWNERS
 README.md
 data/
 *.jpg
+.DS_Store
