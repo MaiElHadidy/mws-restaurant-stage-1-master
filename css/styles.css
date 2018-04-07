@@ -261,7 +261,7 @@ nav h1 a {
   line-height: 1.1;
 }
 
-#restaurant-img {
+#restaurant-img img{
 	width: 90%;
   border-radius: 25px 0;
 }
@@ -365,10 +365,13 @@ nav h1 a {
 
 /* Media Queries*/
 @media screen and (max-width: 457px){
+  /*Home Page Adjustments */
   nav h1{
     padding: 0.5em;
   }
   nav h1 a {
+    font-size: 16px;
+    letter-spacing: 5px;
     padding: 1em;
   }
   .filter-options {
@@ -377,8 +380,8 @@ nav h1 a {
 }
 
 @media screen and (max-width: 250px){
-  
-  nav h1 a {
+
+   nav h1 a {
     font-size: 16px;
     letter-spacing: 5px;
   }
@@ -390,7 +393,11 @@ nav h1 a {
 
 }
 
-@media only screen and (min-width: 578px){
+@media only screen and (min-width: 480px){
+
+  
+
+  /* Restaurant Page Adjustments */
  
   #restaurants-list li {  
     width: 46%;
@@ -400,7 +407,13 @@ nav h1 a {
     width: 41%;
   }
 
-/* ==== Restaurant Details === */
+
+  
+}
+
+@media only screen and (min-width: 680px){
+
+  /* ==== Restaurant Details === */
 
   .inside #map-container {
     height: 87%;
@@ -423,10 +436,10 @@ nav h1 a {
   .inside #footer {
     width: 60%;
   }
-  
+
 }
 
-@media only screen and (min-width: 855px){
+@media only screen and (min-width: 990px){
 
   #restaurants-list {
       padding: 0 5px;
