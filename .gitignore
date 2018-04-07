@@ -1,5 +1,5 @@
 CODEOWNERS
 README.md
-data/
 *.jpg
+*.jpeg
 .DS_Store

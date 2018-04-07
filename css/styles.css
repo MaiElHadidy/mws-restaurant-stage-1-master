@@ -364,26 +364,42 @@ nav h1 a {
 }
 
 /* Media Queries*/
-@media screen and (max-width: 457px){
+
+@media screen and (max-width: 500px){
+
   /*Home Page Adjustments */
+  nav{
+    height:80px;
+  }
+
   nav h1{
     padding: 0.5em;
   }
+
   nav h1 a {
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 5px;
-    padding: 1em;
+    padding: 0.5em;
   }
+
   .filter-options {
     padding: 100px 0 10px;
   }
+
+  .inside #map-container {
+    padding-top: 120px;
+  }
+
+  #map-container {
+    padding-top: 70px;
+  }
 }
 
-@media screen and (max-width: 250px){
+@media screen and (max-width: 359px){
 
    nav h1 a {
     font-size: 16px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 
   #restaurants-list li {
