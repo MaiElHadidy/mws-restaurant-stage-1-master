@@ -70,6 +70,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
  */
 
     const picture = document.getElementById('restaurant-img');
+    picture.className = 'restaurant-img';
 
     const source1 = document.createElement('source');
     source1.media="(min-width: 640px)";

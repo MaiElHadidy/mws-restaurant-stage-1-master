@@ -184,13 +184,12 @@ nav h1 a {
   background-color: #fff;
   border: 1px solid #ccc;
   font-family: Arial,sans-serif;
-  margin: 8px;
+  margin: 10px 3px;
   text-align: left;
   width: 100%;
 }
 
 #restaurants-list .restaurant-img {
-  background-color: #ccc;
   display: block;
   margin: 0;
   max-width: 100%;
@@ -416,11 +415,11 @@ nav h1 a {
   /* Restaurant Page Adjustments */
  
   #restaurants-list li {  
-    width: 46%;
+    width: 48%;
   }
 
   .filter-options select {
-    width: 41%;
+    width: 42%;
   }
 
 
@@ -462,11 +461,11 @@ nav h1 a {
   }
 
   #restaurants-list li {
-    width: 30%;
+    width: 32%;
   }
 
   #restaurants-list li {
-      margin: 10px;
+      margin: 10px 5px;
   }
 
 
