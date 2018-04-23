@@ -61,7 +61,6 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   image.src = DBHelper.imageUrlForRestaurantLarge(restaurant);
 */
 
-
   
 
 

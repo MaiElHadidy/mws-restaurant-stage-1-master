@@ -27,10 +27,12 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <a href="#main" class="skip-map">Skip map</a>
+    <section id="map-container" role="application" aria-label="google-map">
       <div id="map"></div>
     </section>
-    <section>
+    
+    <section id="main">
       <div class="filter-options">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
