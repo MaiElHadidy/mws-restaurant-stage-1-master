@@ -4,8 +4,10 @@ var filesToCache = [
   '/img',
   '/index.html',
   '/restaurant.html',
-  '/js',
-  '/data'
+  '/js/main.js',
+  '/js/restaurant_info.js',
+  '/js/dbhelper.js',
+  '/data/restaurants.json'
 
 ];
 
@@ -33,12 +35,11 @@ self.addEventListener('fetch', function(event) {
       console.log('Network request for ', event.request.url);
       return fetch(event.request)
 
-      // TODO 4 - Add fetched files to the cache
+      
 
     }).catch(function(error) {
 
-      // TODO 6 - Respond with custom offline page
-
+      
     })
   );
 });

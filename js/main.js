@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 registerServiceWorker=() =>{
 	if(!navigator.serviceWorker) return;
 
-	navigator.serviceWorker.register('js/sw.js').then(function() {
+	navigator.serviceWorker.register('sw.js').then(function() {
 		console.log('Registration Worked');
 
 	}).catch(function() {
